@@ -1,0 +1,60 @@
+nav{ height: 50px; background-color: rgb(234, 244, 250); text-align: center;
+    font-weight: bold; position: fixed; top: 0; width: 100%; left: 0;}
+
+#home{ padding: 8px 13px 8px 13px; font-size: 15px; border-radius: 5px; 
+       background-color: blue; border: none; cursor: pointer;
+       color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+
+.one{ margin-top: 9px;}
+
+body{ text-align: center;}
+
+.btn{ background-color: aqua; margin-left: 3px; margin-bottom: 3px; border-radius: 5px;}
+
+.btn-1{ background-color: aqua; margin-left: 10px; margin-bottom: 3px; border-radius: 5px;}
+
+.dot{ text-align: left; font-size: 15px;}
+
+.main{ width: 400px; height: 100%; border: 3px solid grey; margin: 150px auto 0px auto ;
+          background-color: white; border-radius: 5px;}
+
+#items{ width: 380px; height: 30px; border-radius: 5px; font-size: 16px; margin-top: 10px; 
+        border: 2px solid black;}
+
+.add,.del{ height: 30px; width: 100px; margin-top: 5px; margin-bottom: 15px; background-color: rgb(115, 25, 179); 
+           font-size: 15px; border-radius: 5px; color: white;}
+
+#list{ margin: 5px auto 0px auto;}
+
+h2{ color: white; margin-left: 20px;}
+
+img{ width: 40px; height: 35px; margin-left: 40px;}
+
+.pic{ display: flex; background-color: rgb(115, 25, 179); height: 50px; align-items: center;}
+
+.empty{ margin-top: 10px;}
+
+.over{ overflow: scroll; max-height: 450px;}
+
+
+
+
+
+@media only screen and (max-width:640px){
+    .main{ width: 98%; height: 100%; border: 3px solid grey; margin-top: 20%;
+        background-color: white; border-radius: 5px;}
+    #items{ width: 94%;} 
+    img{ margin-left: 3%;}
+    h2{ margin-left: 6%;}
+    .over{ max-height: 400px; overflow: scroll;}
+    .dot{ font-size: 13px;}
+
+}
+
+@media only screen and (max-width:420px){
+    h2{ font-size: 20px; font-weight: bold; margin-left: 5%;}
+    .add,.del{ height: 25px; width: 70px; margin-top: 5px; margin-bottom: 15px; font-size: 12px;}
+    .over{ max-height: 350px; overflow: scroll;}
+    .dot{ font-size: 12px;}
+ 
+}
